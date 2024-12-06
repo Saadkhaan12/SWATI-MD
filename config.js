@@ -31,9 +31,9 @@ MODE: process.env.MODE || "public",
 // make bot public or private 
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
-HEART_REACT: process.env.HEART_REACT || "true",
+HEART_REACT: process.env.HEART_REACT || "false",
 // make this true or false for heart reactions only 
-OWNER_REACT: process.env.OWNER_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "false",
   // make it true or fasle for only react on owner msg only 
 AUTO_VOICE: process.env.AUTO_VOICE || "false"
   // make auto voice false or true
